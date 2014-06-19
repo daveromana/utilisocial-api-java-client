@@ -148,13 +148,13 @@ public class ClientSample {
         ClientSample sample = new ClientSample();
 
         // get the posts and write them to a file
-//        List<Audit> audits = sample.getAudits();
-//        for (Audit audit : audits) {
-//
-//            // strip out fields that aren't needed
-//            audit.setGroups(null);
-//            sample.writeToFile(gson.toJson(audit));
-//        }
+        List<Audit> audits = sample.getAudits();
+        for (Audit audit : audits) {
+
+            // strip out fields that aren't needed
+            audit.setGroups(null);
+            sample.writeToFile(gson.toJson(audit));
+        }
 
         // connect to the streaming api.  all new posts received will be appended to the file
         sample.connect();

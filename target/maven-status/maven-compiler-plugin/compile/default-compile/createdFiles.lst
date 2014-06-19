@@ -1,3 +1,14 @@
 com/dc/utilisocial/api/UserTransfer.class
+com/dc/utilisocial/api/IvrTemplate.class
 com/dc/utilisocial/api/User.class
+com/dc/utilisocial/api/Audit.class
+com/dc/utilisocial/api/LocationType.class
+com/dc/utilisocial/api/Region.class
+com/dc/utilisocial/api/Group.class
+com/dc/utilisocial/api/Sms.class
+com/dc/utilisocial/api/GeoLocation.class
+com/dc/utilisocial/api/AuditType.class
+com/dc/utilisocial/api/State.class
 com/dc/utilisocial/sample/ClientSample.class
+com/dc/utilisocial/sample/ClientSample$1.class
+com/dc/utilisocial/api/Weather.class

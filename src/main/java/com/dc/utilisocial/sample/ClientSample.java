@@ -26,7 +26,8 @@ import java.util.logging.Logger;
 
 @ClientEndpoint
 public class ClientSample {
-    private static final String DC_IP = "54.186.19.14";
+    private static final String DC_IP = "utilisocial.com";
+//    private static final String DC_IP = "localhost";
     private static final String WS_URL = "ws://"+DC_IP+"/datacapable/v1/streamer?token=";
     private static final String TOKEN_REQUEST_URL = "http://"+DC_IP+"/datacapable/v1/users/authenticate";
     private static final String GET_AUDITS_URL = "http://"+DC_IP+"/datacapable/v1/audits/groups/sktelecom";
